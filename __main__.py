@@ -1,8 +1,7 @@
 
 # Internal
-from tools.text import text
-import tools.key_listener
+from tools.text import Text
+from game_systems.battle_ui import PlayerTurnUI
 
-
-
-text("Hello world!")
+# Text("Hello world!")
+PlayerTurnUI()
